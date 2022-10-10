@@ -1,0 +1,52 @@
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-color: rgb(226, 187, 222);
+}
+
+h1 {
+  color: rgb(256, 256, 256);
+  font-family: "Henny Penny", cursive;
+  font-size: 12vw;
+  text-align: center;
+  padding: 50% 0;
+}
+
+h1 a {
+  text-decoration: none;
+}
+
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: rgb(196, 168, 220);
+  overflow: hidden;
+}
+
+.nav a {
+  color: rgb(256, 256, 256);
+  float: left;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  padding: 5px 5px;
+}
+
+.nav a:hover {
+  color: rgb(226, 187, 222);
+}
+
+.nav tr td {
+  /* width: 50%; */
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  vertical-align: middle;
+}
