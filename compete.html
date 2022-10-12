@@ -20,6 +20,42 @@
     />
   </head>
   <body>
+    <div class="fade-in">
+      <h1>COMPETE</h1>
+
+      <div class="arrow-down">
+        <div class="left"></div>
+        <div class="right"></div>
+      </div>
+
+      <div class="divider"></div>
+
+      <div id="instructions">
+        <h2>Instructions:</h2>
+        <p>Lorem ipusm</p>
+      </div>
+
+      <div class="nav" id="nav">
+        <table>
+          <tr>
+            <td><a href="index.html">HOME</a></td>
+            <td><a href="hunt.html">HUNT</a></td>
+            <td><a href="stamp.html">STAMP</a></td>
+            <td><a href="compete.html">COMPETE </a></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
     <script src="index.js"></script>
+    <script>
+      $(window).bind("scroll", function () {
+        if ($(window).scrollTop() > 100) {
+          $("#nav").hide();
+        } else {
+          $("#nav").show();
+        }
+      });
+    </script>
   </body>
 </html>

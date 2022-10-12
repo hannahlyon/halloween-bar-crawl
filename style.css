@@ -24,7 +24,7 @@ h1 a {
   height: 60px;
   background-color: rgb(196, 168, 220);
   overflow: hidden;
-  animation: fadeIn 2s;
+  /* animation: fadeIn 2s; */
 }
 
 .nav a {
@@ -63,6 +63,17 @@ table {
   100% {
     opacity: 1;
   }
+}
+
+.divider {
+  height: 400px;
+  width: 100%;
+}
+
+#instructions {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
 }
 
 /* START SCROLL ARROW */
