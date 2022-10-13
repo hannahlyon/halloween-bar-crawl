@@ -58,13 +58,16 @@
 
     <script src="index.js"></script>
     <script>
-      $(window).bind("scroll", function () {
-        if ($(window).scrollTop() > 100) {
-          $("#nav").hide();
+      var prevScrollpos = window.pageYOffset;
+      window.onscroll = function () {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+          document.getElementById("nav").style.bottom = "0";
         } else {
-          $("#nav").show();
+          document.getElementById("nav").style.bottom = "-50px";
         }
-      });
+        prevScrollpos = currentScrollPos;
+      };
     </script>
   </body>
 </html>
