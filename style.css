@@ -13,6 +13,14 @@ h1 {
   padding: 50% 0;
 }
 
+h3 {
+  color: rgb(256, 256, 256);
+  font-family: "Open Sans", sans-serif;
+  font-size: 10vw;
+  text-align: center;
+  padding: 50% 0;
+}
+
 h1 a {
   text-decoration: none;
 }
@@ -74,6 +82,8 @@ table {
   color: white;
   font-family: "Open Sans", sans-serif;
   text-align: center;
+  margin-top: 600px;
+  margin-bottom: 60px;
 }
 
 /* START SCROLL ARROW */
@@ -144,3 +154,36 @@ table {
 }
 
 /* END SCROLL ARROW */
+
+.poem {
+  color: rgb(256, 256, 256);
+  font-family: "Open Sans", sans-serif;
+  font-size: 6vw;
+  text-align: center;
+  /* padding: 50% 0; */
+  padding: 20px;
+  margin-top: -100px;
+}
+
+li {
+  list-style-type: none;
+}
+
+ul {
+  padding-left: 0px;
+}
+
+.map {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.photo-hints {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 110px;
+}
+
+.photo-hints img {
+  width: 90%;
+}
