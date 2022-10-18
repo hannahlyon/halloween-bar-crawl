@@ -36,8 +36,23 @@ h4 {
   padding: 10% 0;
 }
 
+h5 {
+  color: rgb(256, 256, 256);
+  font-family: "Open Sans", sans-serif;
+  font-size: 7.5vw;
+  text-align: center;
+}
+
 h1 a {
   text-decoration: none;
+}
+
+p {
+  color: rgb(256, 256, 256);
+  font-family: "Open Sans", sans-serif;
+  font-size: 6vw;
+  text-align: center;
+  padding: 20px;
 }
 
 .nav {
@@ -191,6 +206,7 @@ table {
 
 li {
   list-style-type: none;
+  font-size: 5vw;
 }
 
 ul {
@@ -200,6 +216,10 @@ ul {
 .map {
   text-align: center;
   margin-bottom: 100px;
+}
+
+#map {
+  width: 90%;
 }
 
 .photo-hints {
@@ -217,4 +237,5 @@ ul {
   font-family: "Open Sans", sans-serif;
   font-size: 10vw;
   text-align: center;
+  margin-bottom: 80px;
 }
