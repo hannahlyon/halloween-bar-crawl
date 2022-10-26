@@ -3,6 +3,7 @@ body {
   width: 100%;
   margin: 0;
   background-color: rgb(226, 187, 222);
+  text-align: center;
 }
 
 h1 {
@@ -220,6 +221,12 @@ ul {
 
 #map {
   width: 90%;
+  text-align: center;
+}
+
+#schedule {
+  width: 90%;
+  text-align: center;
 }
 
 .photo-hints {
