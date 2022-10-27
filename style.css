@@ -246,3 +246,22 @@ ul {
   text-align: center;
   margin-bottom: 80px;
 }
+
+#contact {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.emoji {
+  color: rgb(256, 256, 256);
+  text-align: center;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 50px;
+  /* margin-right: 20px; */
+}
+
+.middle {
+  display: inline-block;
+  width: 20px;
+}
